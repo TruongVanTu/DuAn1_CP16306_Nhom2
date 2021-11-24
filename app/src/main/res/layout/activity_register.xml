@@ -46,15 +46,15 @@
         app:layout_constraintTop_toBottomOf="@+id/logo" />
 
     <EditText
-        android:id="@+id/inputName"
+        android:id="@+id/inputEmail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="@drawable/input_bg"
-        android:drawableLeft="@drawable/ic_people"
+        android:drawableLeft="@drawable/ic_email"
         android:drawablePadding="10dp"
         android:ems="10"
-        android:hint="Name"
+        android:hint="Email"
         android:inputType="textPersonName"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
@@ -83,9 +83,9 @@
         android:paddingBottom="10dp"
         android:textColor="@color/white"
         android:textColorHint="@color/color_chu"
-        app:layout_constraintEnd_toEndOf="@+id/inputName"
-        app:layout_constraintStart_toStartOf="@+id/inputName"
-        app:layout_constraintTop_toBottomOf="@+id/inputName" />
+        app:layout_constraintEnd_toEndOf="@+id/inputEmail"
+        app:layout_constraintStart_toStartOf="@+id/inputEmail"
+        app:layout_constraintTop_toBottomOf="@+id/inputEmail" />
 
     <EditText
         android:id="@+id/inputConformPassword"
