@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     View mHeaderView;
     TextView edUser;
     @Override
-    // abcddb
+    // abcddbvdvdkvmd
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
